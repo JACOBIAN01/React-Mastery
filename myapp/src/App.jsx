@@ -1,17 +1,22 @@
 import './App.css'
-// import element from './NewApp';
-// import Fruits from './List';
-// import People from './User';
-// import Key from './Key';
 import UserCard from './components/UserCard'
 
+
+
+
 function App() {
+  const name =["avi","Rahu","Rahib","Avinav"]
+  const des = ["Tech","HR","Manager","Ops"]
 
   return (
     <>
-      <UserCard title="Hello" desc="Hi" />
-      <UserCard title="Hello2" desc="Hi2" />
-      <UserCard title="Hello3" desc="Hi3" />
+      <ul>
+        {
+          name.map((item,index)=>(
+            <UserCard key={index} title={item} desc={des[index]}/>
+          ))
+        }
+      </ul>
     </>
   );
 }
