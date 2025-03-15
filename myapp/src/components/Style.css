@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+
+input{
+    border: 2px solid crimson;
+    height: 40px;
+    border-radius: 40px;
+    font-size: 25px;
+}
+
+p{
+    font-size: 25px;
+}

@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 // const Welcome  = (props)=>{
 //     return(
 //         <>
@@ -20,11 +20,11 @@ import React from "react";
 
 // export default NewApp;
 
-const element = React.createElement("button",{
-    className:"btn",
-    onClick:()=>alert("Clicked"),
-},
-"Click Me"
-)
+// const element = React.createElement("button",{
+//     className:"btn",
+//     onClick:()=>alert("Clicked"),
+// },
+// "Click Me"
+// )
 
-export default element;
+// export default element;
